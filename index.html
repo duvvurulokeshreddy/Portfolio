@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5a789f3f61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/1.png" class="logo">
+            <ul id="sidememu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href=""></a></li>
+                <i class="fas fa-times" onclick="closememu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmemu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Java Developer</p>
+            <h1>Hi, I'm <span>Lokesh</span><br> Reddy From India</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------about    -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/loki-removebg-preview.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm Duvvuru Lokesh Reddy, a passionate Java Full Stack Developer with a solid foundation in Java development. Recently graduated with a degree in Computer Science Engineering, I'm proficient in Core Java, Collection Framework, JDBC, HTML, and CSS. I believe in crafting clean, efficient code to create impactful solutions. Let's connect on LinkedIn for collaboration opportunities!</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skils')">Skils</p>
+                    <p class="tab-links active-link" onclick="opentab('internship')">Internship</p>
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skils">
+                    <ul>
+                        <li><span>Java Developer</span><br>Crafting innovative solutions with Java.</li>
+                        <li><span>Web Development</span><br>Web app Developer</li>
+                        <li><span>Oracle SQL</span><br>Empowering businesses with Oracle expertise</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="internship">
+                    <ul>
+                        <li><span>2023 -Current</span><br>Java Full Stack Developer at J Spiders Institute</li>
+                        <li><span>2023</span><br>Completed the Forage Developer Job Simulation at Accenture</li>
+                        <li><span>2021-2022</span><br>Customer Care Registry at IBM </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019 - 2023 </span><br>smk fomra institute of technology</li>
+                        <li><span>2017 - 2019</span><br>Krishna Chaitanya Junior College</li>
+                        <li><span>2016 - 2017</span><br>Navodaya E.M High School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                                <!-- -------------------------------------------  Projects ------------------------------------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>Passionate Java developer dedicated to crafting high-quality, efficient solutions. Skilled in Java development, I strive to create impactful applications that meet user needs and push technological boundaries.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Creating dynamic digital experiences through web development. Leveraging the latest technologies to build responsive and user-friendly websites that leave a lasting impression</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Oracle Developer</h2>
+                    <p>Expert Oracle Developer adept at architecting robust database solutions. Specializing in Oracle technologies, I design and optimize databases to empower businesses with scalable and efficient data management solutions</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/th (4).jpeg">
+                    <div class="layer">
+                        <h3>Smartphone-Based Remote Monitoring Tool for E-Learning</h3>
+                        <p>Engineered a smartphone-based remote monitoring tool to amplify e-learning, driving a 23% surge in student 
+                            engagement.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/th1.jpeg">
+                    <div class="layer">
+                        <h3>Customer Care Registry</h3>
+                        <p>Efficient customer care registry for prompt assistance. Share your details and concerns, and let us handle the rest with care.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hosptial.jpg">
+                    <div class="layer">
+                        <h3>Prediction Mortality in Hospital Using Machine Learning Techniques</h3>
+                        <p>Constructed a strong machine learning-based mortality prediction model utilizing Python ,Flask, achieving a  
+                            accuracy in identifying at-risk patients.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+       
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/log.jpg">
+                    <div class="layer">
+                        <h3>Parking Vehicle SpringBoot Project</h3>
+                        <p>The Parking Vehicle SpringBoot Project efficiently manages parking with secure authentication, real-time slot tracking, booking, multi-vehicle management, and enhanced communication via email/SMS, streamlining operations and enhancing user experience.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Car.jpg">
+                    <div class="layer">
+                        <h3>Car Management System</h3>
+                        <p>CarManagementSystem optimizes vehicle operations through streamlined tracking, maintenance scheduling, and inventory management, enhancing efficiency and reducing downtime.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/th.jpeg">
+                    <div class="layer">
+                        <h3>Password Generator using Java</h3>
+                        <p>Password Generator using Java generates strong, randomized passwords for enhanced security, ensuring robust protection against unauthorized access to sensitive information. This tool is essential for applications requiring secure user authentication and data encryption.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> lokeshreddy2910@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 6309393449</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/duvvuru-lokeshreddy/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/duvvurulokeshreddy"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/lokesh2904"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <a href="images/Duvvuru Lokesh Reddy.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="number" name="Number" maxlength="10" placeholder="Phone Number" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Lokesh <i class="fa-solid fa-heart"></i> Reddy</p>
+        </div>
+    </div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidememu=document.getElementById("sidememu");
+
+    function openmemu(){
+        sidememu.style.right="0";
+    }
+    function closememu(){
+        sidememu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzvN-UdxTVO1bF7w4TjDt1Iko_IXTJ9A8IdMOxj-3qHbpEy-DKUna-vQ36GLihlfCHd/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Sucessfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
